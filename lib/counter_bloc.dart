@@ -9,6 +9,8 @@ class CounterBloc {
 
   int _counter = 0;
 
+  // just a comment
+
   final _counterStateController = StreamController<int>();
   StreamSink<int> get _inCounter => _counterStateController.sink;
 
